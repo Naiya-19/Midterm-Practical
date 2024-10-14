@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+    <script src="cookies.js"defer></script>
+</head>
+<body>
+    <h1>Cookies</h1>
+    <h2>Current Inventory of Cookies</h2>
+    <li>Chocolate Chip</li>
+    <li>Pecan</li>
+    <li>White Chocolate</li>
+    <li>Peanut Butter</li>
+    <li>Sugar</li>
+
+    <h2>What would you like to do?</h2>
+    <li>Create a cookie - C</li>
+    <li>Read the details for a cookie - R</li>
+    <li>Update the details for a cookie - U</li>
+    <li>Delete a cookie - D</li>
+
+    <label for="crudInput"></label>
+    <input type="text" id="crudInput">
+    <button onclick="crud()">Submit your choice of action</button>
+    <div id="result"></div>
+</body>
+</html>
